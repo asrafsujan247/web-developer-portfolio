@@ -227,7 +227,41 @@ main {
   margin: 50px 0;
 }
 
+/* footer section */
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
 .footer-description {
   font-size: 16px;
   color: #474747;
+}
+
+.social-links {
+  margin-top: 30px;
+}
+
+.social-links a {
+  margin-right: 20px;
+}
+
+.input-name,
+.input-email,
+.message-box {
+  font-size: 16px;
+  color: #757575;
+  background-color: #fff;
+  padding: 18px 30px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
 }
